@@ -40,10 +40,9 @@ a {
 /* Header & Navbar */
 
 header {
-    position: fixed;
     width: 100%;
     padding: 1rem;
-    border-bottom: 1px solid blue;
+    border-bottom: 5px groove white;
     background-color: #16202c;
 }
 
@@ -67,4 +66,20 @@ header {
 .logo {
     height: 9.375rem;
     width: 9.375rem;
+}
+
+.mainContainer {
+    background-color: #720e07;
+}
+
+.mainChild {
+    background-color: #8b6220;
+}
+
+footer {
+    background-color: #d5ac4e;
+}
+
+.map {
+    border-radius: 100rem;
 }
