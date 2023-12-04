@@ -1,0 +1,70 @@
+/* Colors fpr Styling
+
+Rich Black #16202c -> Header
+Satin Sheen Gold #d5ac4e
+Golden Brown #8b6220
+Barn Red #720e07
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+html {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header & Navbar */
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid blue;
+    background-color: #16202c;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexNav {
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row wrap;
+}
+
+.navItem {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.logo {
+    height: 9.375rem;
+    width: 9.375rem;
+}
