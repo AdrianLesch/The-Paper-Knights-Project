@@ -44,6 +44,8 @@ header {
     padding: 1rem;
     border-bottom: 5px groove white;
     background-color: #16202c;
+    position: fixed;
+    top: 0;
 }
 
 .wrapper {
@@ -69,17 +71,90 @@ header {
 }
 
 .mainContainer {
-    background-color: #720e07;
-    display: grid;
-    grid: repeat (3, 200px) / 50% 50%;
+    display: flex;
+    color: white;
 }
 
 .mainChild {
-    background-color: #8b6220;
+    margin-top: 13.75rem;
+    background-color: #0c7489;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
-footer {
-    background-color: #d5ac4e;
+.slogan {
+    padding: 1rem;
+    margin: 1rem;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: #d7d9ce;
+    border-radius: 60px;
+    width: 100%;
+}
+
+.prologue {
+    padding: 1rem;
+    margin: 1rem;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    background-color: #119da4;
+    border-radius: 60px;
+    width: 100%;
+}
+
+.news {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+    grid-column: 1 / 2 ;
+    grid-row: 3;
+    background-color: #119da4;
+}
+
+.pic {
+    display: flex;
+    grid-column: 2 / 3;
+    grid-row: 3;
+    flex-flow: column wrap;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.pic img {
+    width: 31.25rem;
+    height: 31.25rem;
+    border-radius: 50px;
+}
+
+.contact {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+.council {
+    display: flex;
+    flex-flow: row wrap;
+}
+.councilFlex {
+    align-items: center;
+}
+
+.council img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50px;
+}
+
+.council figcaption {
+    width: 10rem;
+    height: 10rem;
+}
+
+.footFlex {
+    background-color: #16202c;
+    border-top: 5px groove white;
+    display: flex;
 }
 
 .map {
