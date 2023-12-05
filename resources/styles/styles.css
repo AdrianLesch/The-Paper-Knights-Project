@@ -70,6 +70,8 @@ header {
 
 .mainContainer {
     background-color: #720e07;
+    display: grid;
+    grid: repeat (3, 200px) / 50% 50%;
 }
 
 .mainChild {
