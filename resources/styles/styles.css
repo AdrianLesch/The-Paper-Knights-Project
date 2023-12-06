@@ -220,6 +220,13 @@ li {
 footer {
     background-color: #16202c;
     border-top: 5px groove white;
+    padding: 1rem;
+}
+
+footer h3 {
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .council {
@@ -228,6 +235,7 @@ footer {
     flex-flow: row wrap;
     justify-content: center;
     gap: 2rem;
+    padding: 1rem;
 }
 
 .picContainer {
@@ -258,18 +266,20 @@ footer {
 .form {
     display: flex;
     text-align: right;
-    padding: 1rem;
+    padding: 2rem;
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
     align-items: flex-start;
     background-color: #119da4;
     border: 3px groove white;
+    border-radius: 60px;
     max-width: 100%;
 }
 
 .map {
     max-width: 75%;
+    border-radius: 60px;
 }
 
 .disclaimer {
@@ -285,3 +295,4 @@ footer {
     width: 2rem;
     height: 2rem;
 }
+
