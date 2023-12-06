@@ -35,7 +35,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #d5ac4e;
 }
 
 /* Header & Navbar */
@@ -61,8 +61,13 @@ header {
     flex-flow: row wrap;
 }
 
+.wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
 .navItem {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1rem;
     list-style: none;
 }
@@ -72,6 +77,22 @@ header {
     width: 9.375rem;
 }
 
+@media only screen and (max-width: 500px) {
+    .logo {
+        height: 4.375rem;
+        width: 4.375rem;
+    }
+
+    .flexLogo h1 {
+        font-size: 1.4rem;
+    }
+
+    .navItem {
+        font-size: .8rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 
 .mainContainer {
     margin-top: 12%;
@@ -120,12 +141,13 @@ li {
     text-align: left;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1400px) {
     .news {
         grid-column: 1 / 3;
         grid-row: 3;
     }
 }
+
 
 .pic {
     display: flex;
@@ -143,8 +165,8 @@ li {
     border-radius: 50px;
 }
 
-
-@media only screen and (max-width:1000px) {
+/*
+@media only screen and (max-width:1024px) {
     .pic {
         display: flex;
         grid-column: 2 / 3;
@@ -159,13 +181,13 @@ li {
         border-radius: 50px;
     }
 }
-
-@media only screen and (max-width: 850px) {
+*/
+@media only screen and (max-width: 1400px) {
     .pic {
         display: flex;
         grid-column: 1 / 3;
         grid-row: 4;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         padding: 1rem;
         margin: 0 auto;
     }
@@ -222,6 +244,7 @@ footer {
     width: 50%;
     margin: 0 auto;
 }
+
 .contact {
     display: flex;
     flex-flow: row wrap;
@@ -229,16 +252,36 @@ footer {
     align-items: center;
     overflow: hidden;
     height: 30rem;
+    gap: 1rem;
 }
 
 .form {
     display: flex;
-    text-align: center;
-    padding: 2rem;
-    height: 400px;
-    width: 600px;
+    text-align: right;
+    padding: 1rem;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #119da4;
+    border: 3px groove white;
+    max-width: 100%;
+}
+
+.map {
+    max-width: 75%;
 }
 
 .disclaimer {
     display: flex;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.logos img {
+    width: 2rem;
+    height: 2rem;
 }
