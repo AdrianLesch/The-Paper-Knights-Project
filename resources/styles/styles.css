@@ -70,16 +70,12 @@ header {
     width: 9.375rem;
 }
 
-.mainContainer {
-    display: flex;
-    color: white;
-}
 
-.mainChild {
+.mainContainer{
     margin-top: 13.75rem;
     background-color: #0c7489;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr));
     gap: 20px;
 }
 
@@ -88,9 +84,9 @@ header {
     margin: 1rem;
     grid-column: 1 / 3;
     grid-row: 1;
-    background-color: #d7d9ce;
+    background-color: #119da4;
     border-radius: 60px;
-    width: 100%;
+    width: fit-content;
 }
 
 .prologue {
@@ -98,9 +94,9 @@ header {
     margin: 1rem;
     grid-column: 1 / 3;
     grid-row: 2;
-    background-color: #119da4;
+    background-color: #13505b;
     border-radius: 60px;
-    width: 100%;
+    width: fit-content;
 }
 
 .news {
@@ -109,7 +105,7 @@ header {
     border-radius: 50px;
     grid-column: 1 / 2 ;
     grid-row: 3;
-    background-color: #119da4;
+    background-color: #13505b;
 }
 
 .pic {
@@ -118,26 +114,12 @@ header {
     grid-row: 3;
     flex-flow: column wrap;
     padding: 1rem;
-    margin: 0 auto;
 }
 
 .pic img {
     width: 31.25rem;
     height: 31.25rem;
     border-radius: 50px;
-}
-
-.contact {
-    grid-column: 1 / 3;
-    grid-row: 5;
-}
-
-.council {
-    display: flex;
-    flex-flow: row wrap;
-}
-.councilFlex {
-    align-items: center;
 }
 
 .council img {
@@ -147,8 +129,7 @@ header {
 }
 
 .council figcaption {
-    width: 10rem;
-    height: 10rem;
+    width: fit-content;
 }
 
 .footFlex {
