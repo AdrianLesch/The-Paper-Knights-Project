@@ -95,7 +95,7 @@ header {
 }
 
 .mainContainer {
-    margin-top: 12%;
+    margin-top: 240px;
     background-color: #0c7489;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
