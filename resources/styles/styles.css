@@ -73,8 +73,8 @@ header {
 }
 
 .logo {
-    height: 9.375rem;
-    width: 9.375rem;
+    height: 7.375rem;
+    width: 7.375rem;
 }
 
 @media only screen and (max-width: 960px) {
@@ -104,7 +104,7 @@ header {
 /*Main-Section*/
 
 .mainContainer {
-    margin-top: 15rem;
+    margin-top: 13rem;
     background-color: #0c7489;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
