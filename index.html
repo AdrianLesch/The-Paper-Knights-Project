@@ -15,10 +15,11 @@
 </head>
 
 <body>
+
     <header class="wrapper">
         <nav>
             <ul class="flexNav">
-                <a href="#introduction">
+                <a href="#">
                     <li class="navItem">Prologue</li>
                 </a>
                 <a href="#townCrier">
@@ -46,7 +47,8 @@
         <div class="slogan">
             <h2>A club for those who enjoy medieval fantasy and heroic quests!</h2>
         </div>
-        <div class="prologue" id="introduction">
+        <div class="prologue">
+            <span id="townCrier"></span>
             <h3>Prologue</h3> <br />
             <p>Do you love to immerse yourself in imaginary worlds, create memorable characters, and experience
                 thrilling adventures? If so, you might be interested in joining our pen and paper roleplaying club!
@@ -59,7 +61,7 @@
                 information. We hope to see you soon at our next session!</p>
         </div>
         <br>
-        <div class="news" id="townCrier">
+        <div class="news">
             <h3>The Town Crier</h3> <br />
             <p>Welcome to the news section of our pen and paper roleplaying club! Here you can find the latest
                 updates
@@ -147,8 +149,10 @@
                 </li> <br>
             </ul>
             <br>
+
             <h4>Announcements</h4> <br>
             <p>We have some other announcements and information that we want to share with you.</p> <br>
+
             <ul>
                 <li>We have created a newsletter for our club, where you can find more news, reviews, interviews,
                     and
@@ -157,6 +161,7 @@
                     will
                     receive a monthly email with the latest issue. You can also check out our previous issues
                     <a href="#">here</a>.
+                    <span id="hallOfHeroes"></span>
                 </li> <br>
                 <li>
                     We have launched a podcast for our club, where you can listen to some of our game sessions, as
@@ -183,7 +188,7 @@
     </main>
 
     <footer>
-        <h3 id="hallOfHeroes">Hall of Heroes</h3><br>
+        <h3>Hall of Heroes</h3><br>
         <h4>The council</h4>
 
         <div class="council">
@@ -218,7 +223,7 @@
                 </div>
                 <textarea name="contact" cols="33" rows="6" placeholder="Leave us a message..."></textarea>
                 <br>
-                <input type="submit" name="contact" value="Submit">
+                <input type="submit" name="contact" value="Submit" id="submit">
             </form>
 
             <iframe class="map"
